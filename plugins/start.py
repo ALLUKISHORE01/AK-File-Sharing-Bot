@@ -90,6 +90,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
+                    InlineKeyboardButton('Tᴇᴀᴍ Vɪʀᴀʙ', url='https://t.me/Virab_Bot_Updates'),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
